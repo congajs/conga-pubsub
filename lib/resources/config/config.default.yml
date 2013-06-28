@@ -1,0 +1,9 @@
+# pub/sub
+pubsub:
+
+    # conga:
+    #     adapter:
+    #         type: redis
+    #         options:
+    #             host: %redis.host%
+    #             port: %redis.port%

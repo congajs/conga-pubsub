@@ -1,0 +1,28 @@
+{
+  "name": "conga-pubsub",
+  "version": "0.0.1",
+  "description": "Conga.js bundle which provides applications with pub/sub functionality",
+  "directories": {
+    "test": "test"
+  },
+  "main": "",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/congajs/conga-pubsub.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Marc Roulias",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "0.8.4"
+  },
+  "devDependencies": {
+
+  },
+  "readmeFilename": "README.md"
+}

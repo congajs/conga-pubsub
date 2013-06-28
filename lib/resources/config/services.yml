@@ -1,0 +1,12 @@
+parameters:
+
+    pubsub.listener.constructor: conga-pubsub:pubsub-listener
+
+
+services:
+
+    # the pubsub kernel listener
+    pubsub.listener:
+        constructor: "%pubsub.listener.constructor%"
+        tags:
+            - { name: kernel.event, event: kernel.compile, method: onKernelCompile, priority: 8 }
